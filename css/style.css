@@ -1,34 +1,86 @@
-body{
-    margin: 0 auto;
 
-}
 .all-body{
     width: 980px;
     margin-right: 10px;
     margin-left: 10px;
-    background-color: green;
+    background-color: #ffffff;
     display: flex;
-    justify-content: space-around;
     height: 1000px;
+    flex-direction: column;
 
 
 }
 .header-top{
-    background-color:greenyellow;
+    background-color:#dcdcdc;
     height: 230px;
     width:980px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
+
+
+}
+.num-txt{
+    font-family: 'Open Sans Condensed';
+    font-size: 40px;
+    line-height: 46px;
+    font-weight: 300;
+    letter-spacing: 0.025em;
+    color: #767676;
+}
+.header-logo{
+    width: 273px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
 
 }
 .header-left{
-    background-color: aquamarine;
+    background-color: transparent;
     display: flex;
     justify-content: flex-start;
 }
 .header-right{
-    background-color: cyan;
+    background-color: transparent;
     display: flex;
     justify-content: flex-end;
+}
+
+.menu{
+    background-color: #777777;
+    width: 980px;
+    height:80px;
+    display: flex;
+
+}
+ .b_img{
+     display: flex;
+ }
+
+ .mid{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     justify-content: space-around;
+     background-color: #ffffff;
+ }
+
+ .footer-b{
+     background-color: #777777;
+     display: flex;
+     justify-content: space-between;
+ }
+ .f-left{
+     background-color: aquamarine;
+ }
+ .f-mid{
+     background-color: aliceblue;
+
+ }
+.f-right{
+    background-color: transparent;
+}
+.b-logo{
+    width: 36px;
+    height: 38px;
 }
 

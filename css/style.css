@@ -16,16 +16,18 @@
     width:980px;
     display: flex;
     justify-content: space-between;
+    justify-content: space-around;
 
 
 }
 .num-txt{
     font-family: 'Open Sans Condensed';
-    font-size: 40px;
-    line-height: 46px;
+    font-size: 33px;
+    line-height: 34px;
     font-weight: 300;
     letter-spacing: 0.025em;
     color: #767676;
+
 }
 .header-logo{
     width: 273px;
@@ -50,18 +52,50 @@
     width: 980px;
     height:80px;
     display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.menu-txt{
+    margin-top: 20px;
+    font-family: 'PT Sans';
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+
+}
+.hover-txt{
 
 }
  .b_img{
-     display: flex;
  }
 
+ .slider{
+overflow: hidden;
+ }
  .mid{
      display: flex;
      flex-direction: row;
      justify-content: space-between;
      justify-content: space-around;
      background-color: #ffffff;
+ }
+ .mid-block{
+     background-color: #777777;
+     width: 350px;
+     height: auto;
+ }
+ .mid-txt{
+     font-family: 'PT Sans';
+     font-size: 14px;
+     font-weight: 400;
+     letter-spacing: 0.025em;
+     color: #ffffff;
+     line-height: 1.2;
+     font-style: normal;
  }
 
  .footer-b{

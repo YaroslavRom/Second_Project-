@@ -1,23 +1,28 @@
 
 .all-body{
-    width: 980px;
-    margin-right: 10px;
-    margin-left: 10px;
+    /*width: 980px;*/
+    /*margin-right: 10px;*/
+    /*margin-left: 10px;*/
     background-color: #ffffff;
     display: flex;
-    height: 1000px;
+    height: auto;
     flex-direction: column;
 
 
 }
-.header-top{
+.header{
     background-color:#dcdcdc;
+}
+.header-top{
+    margin: 0 auto;
     height: 230px;
     width:980px;
     display: flex;
     justify-content: space-between;
-    justify-content: space-around;
-
+}
+.header-phone-number{
+    display: flex;
+    align-items: center;
 
 }
 .num-txt{
@@ -35,11 +40,14 @@
     display: flex;
     justify-content: center;
 
+
 }
 .header-left{
     background-color: transparent;
     display: flex;
     justify-content: flex-start;
+    position: relative;
+    align-items: center;
 }
 .header-right{
     background-color: transparent;
@@ -49,12 +57,15 @@
 
 .menu{
     background-color: #777777;
-    width: 980px;
     height:80px;
     display: flex;
     justify-content: center;
     align-content: center;
 
+}
+
+a:hover{
+text-decoration: underline;
 }
 
 .menu-txt{
@@ -67,26 +78,40 @@
     color: #ffffff;
 
 }
-.hover-txt{
-
-}
  .b_img{
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
  }
 
  .slider{
-overflow: hidden;
+     overflow: hidden;
+     margin-bottom: 490px;
+     display: flex;
+     justify-content: center;
+
  }
- .mid{
+.slider img {
+    position: absolute;
+
+}
+.mid{
      display: flex;
      flex-direction: row;
-     justify-content: space-between;
-     justify-content: space-around;
      background-color: #ffffff;
  }
  .mid-block{
      background-color: #777777;
      width: 350px;
      height: auto;
+     margin-left: 300px;
+
+
+     padding-block-end: 20px;
+     padding-block-start: 20px;
+     padding-inline-start: 20px;
+     padding-inline-end: 20px;
+
  }
  .mid-txt{
      font-family: 'PT Sans';
@@ -94,14 +119,58 @@ overflow: hidden;
      font-weight: 400;
      letter-spacing: 0.025em;
      color: #ffffff;
-     line-height: 1.2;
+     line-height:22px;
      font-style: normal;
+     text-decoration: none;
+
+ }
+.archive{
+   text-decoration: underline;
+   margin-left: 225px;
+
+}
+
+.mid-txt a{
+    font-family: 'PT Sans';
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #ffffff;
+    line-height:22px;
+    font-style: normal;
+    text-decoration: none;
+
+}
+.right-mid{
+    width:auto;
+    height: auto;
+    margin-right: 212px;
+    margin-left: 59px;
+}
+ .right-mid-txt{
+     font-family: 'PT Sans';
+     font-size: 16px;
+     line-height: 22px;
+     font-weight: 400;
+     letter-spacing: 0.025em;
+     color: #bbbbbb;
+
+
+ }
+ .m-r-header{
+     font-family: 'PT Sans';
+     font-size: 40px;
+     line-height: 22px;
+     font-weight: 400;
+     letter-spacing: 0.025em;
+     color: #bbbbbb;
  }
 
  .footer-b{
      background-color: #777777;
      display: flex;
      justify-content: space-between;
+     margin-top: 190px;
  }
  .f-left{
      background-color: transparent;
@@ -112,21 +181,32 @@ overflow: hidden;
      font-weight: 400;
      letter-spacing: 0.025em;
      color: #ffffff;
+     
+     display: flex;
+     align-items: center;
+     margin-bottom: 45px;
+     margin-left: 50px;
  }
  .f-mid{
      background-color: transparent;
 
      font-family: 'PT Sans';
-     font-size: 14px;
+     font-size: 14;
+     line-height: 20px;
      line-height: 26px;
      font-weight: 400;
      letter-spacing: 0.025em;
      color: #ffffff;
+
+     display: flex;
+     align-items: center;
+     margin-bottom: 45px;
  }
 .f-right{
     background-color: transparent;
     display: flex;
     flex-direction: row;
+
 
     font-family: 'PT Sans';
     font-size: 14px;
@@ -134,10 +214,17 @@ overflow: hidden;
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #ffffff;
+    
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    margin-bottom: 45px;
 
 }
 .b-logo{
     width: 36px;
     height: 38px;
 }
+
+
 

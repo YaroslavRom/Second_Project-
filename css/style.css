@@ -224,6 +224,7 @@ text-decoration: underline;
 .b-logo{
     width: 36px;
     height: 38px;
+    margin-inline-end: 9px;
 }
 
 

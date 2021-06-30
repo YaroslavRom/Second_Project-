@@ -7,7 +7,7 @@
     display: flex;
     height: auto;
     flex-direction: column;
-
+    font-family: 'PT Sans', sans-serif;
 
 }
 .header{
@@ -26,7 +26,7 @@
 
 }
 .num-txt{
-    font-family: 'Open Sans Condensed';
+    /*font-family: 'Open Sans Condensed';*/
     font-size: 33px;
     line-height: 34px;
     font-weight: 300;
@@ -85,7 +85,7 @@ a:hover{
     width: 980px;
     margin-top: 20px;
     font-family: 'PT Sans';
-    font-size: 27px;
+    font-size: 30px;
     line-height: 1.2;
     font-weight: 400;
     letter-spacing: 0.025em;
@@ -133,14 +133,12 @@ menu a{
 }
 .mid-block{
     background-color: #777777;
-    width: 350px;
+    width: 265px;
     height: auto;
+padding-left: 33px;
+    padding-right: 52px;
 
-
-    padding-block-end: 88px;
-    padding-block-start: 33px;
-    padding-inline-start: 52px;
-    padding-inline-end: 100px;
+   
 
 
 }
@@ -157,7 +155,8 @@ menu a{
 }
 .archive{
     text-decoration: underline;
-    margin-left: 225px;
+    margin-left: 143px;
+    padding-bottom: 100px;
 
 }
 
@@ -174,13 +173,14 @@ menu a{
 }
 .news-header{
     font-family: 'PT Sans';
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 400;
     letter-spacing: 0.025em;
     color: #ffffff;
     line-height:22px;
     font-style: normal;
     text-decoration: none;
+    padding-top: 22px;
 
 }
 .right-mid{
@@ -190,7 +190,7 @@ menu a{
 }
 .right-mid-txt{
     font-family: 'PT Sans';
-    font-size: 13px;
+    font-size: 14px;
     line-height: 22px;
     font-weight: 400;
     letter-spacing: 0.025em;
@@ -202,7 +202,7 @@ menu a{
 }
 .m-r-header{
     font-family: 'PT Sans';
-    font-size: 36px;
+    font-size: 40px;
     line-height: 22px;
     font-weight: 400;
     letter-spacing: 0.025em;
@@ -212,7 +212,6 @@ menu a{
 .footer-b{
     background-color: #777777;
     display: flex;
-    justify-content: space-between;
     margin-top: 190px;
     width: 100%;
 }
@@ -221,6 +220,7 @@ menu a{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    padding-top: 50px;
 }
 
 .f-left{
@@ -236,14 +236,12 @@ menu a{
     display: flex;
     align-items: center;
     margin-bottom: 45px;
-    margin-left: 50px;
 }
 .f-mid{
     background-color: transparent;
 
     font-family: 'PT Sans';
     font-size: 14px;
-    line-height: 20px;
     line-height: 26px;
     font-weight: 400;
     letter-spacing: 0.025em;
@@ -252,6 +250,12 @@ menu a{
     display: flex;
     align-items: center;
     margin-bottom: 45px;
+
+
+}
+.bottom-txt li{
+    /*border-bottom: 1px solid #ffffff;*/
+text-decoration: underline;
 }
 .f-right{
     background-color: transparent;
@@ -268,14 +272,12 @@ menu a{
 
     display: flex;
     align-items: center;
-    margin-right: 50px;
     margin-bottom: 45px;
 
 }
 .b-logo{
-    width: 36px;
+    width: 40px;
     height: 38px;
-    margin-inline-end: 9px;
 }
 
 

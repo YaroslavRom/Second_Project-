@@ -40,6 +40,7 @@
 .header-phone-number{
     display: flex;
     align-items: center;
+    margin: 77px 0 72px 0;
 
 }
 .num-txt{
@@ -57,6 +58,7 @@
     height: 100px;
     display: flex;
     justify-content: center;
+    margin: 65px 0 65px 0;
 
 
 }
@@ -66,11 +68,14 @@
     justify-content: flex-start;
     position: relative;
     align-items: center;
+    margin-right: auto;
 }
 .header-right{
     background-color: transparent;
     display: flex;
     justify-content: flex-end;
+    margin-left: auto;
+
 }
 
 .menu{
@@ -120,19 +125,21 @@ menu a{
     display: block;
     margin-left: auto;
     margin-right: auto;
+    height: 462px;
+    margin-top: -62px;
+    max-height: 462px;
+
 }
 
 .slider{
     overflow: hidden;
-    margin-bottom: 490px;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 
 }
 .slider img {
-    position: absolute;
-
+margin-bottom: 30px;
 }
 .mid{
     display: flex;
@@ -209,7 +216,7 @@ padding-left: 33px;
 }
 .right-mid-txt{
     font-family: 'PT Sans';
-    font-size: 14px;
+    font-size: 15px;
     line-height: 22px;
     font-weight: 400;
     letter-spacing: 0.025em;

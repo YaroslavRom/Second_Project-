@@ -1,3 +1,12 @@
+html{
+    height: 100%;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
+}
 .all-body {
     /*width: 980px;*/
     /*margin-right: 10px;*/
@@ -7,6 +16,7 @@
     height: auto;
     flex-direction: column;
     font-family: 'PT Sans', sans-serif;
+
 }
 
 /* open-sans-condensed-300 - latin */
@@ -239,8 +249,7 @@ padding-left: 33px;
     display: flex;
     width: 100%;
 
-    position: absolute;
-    top: 1495px;
+
 
 }
 .footer-conrainer{
